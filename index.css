@@ -50,10 +50,6 @@ main {
     padding: var(--v-spacing) 0 10px 0;
 }
 
-main > :nth-child(2) {
-  background-color: lightgray;
-}
-
 main > section {
     display: grid;
     grid-template-columns: 20px auto 20px;
