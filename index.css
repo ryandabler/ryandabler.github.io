@@ -71,16 +71,20 @@ main > section p {
     text-align: center;
 }
 
-.tech > * {
+.tech > *:not(:last-child)::after {
+    content: ", ";
+}
+
+.tech-main-list > * {
     display: inline-block;
 }
 
-.tech > *:not(:last-child) {
+.tech-main-list > *:not(:last-child) {
     margin-right: 5px;
 }
 
-.tech > *:not(:last-child)::after {
-    content: ", ";
+.tech-secondary-list > * {
+    display: inline;
 }
 
 .tech-major {
