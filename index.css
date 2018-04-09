@@ -1,0 +1,33 @@
+body {
+  width: 320px;
+}
+
+nav {
+  background-color: lightgray;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+main > :nth-child(2) {
+  background-color: lightgray;
+}
+
+#portfolio > .project:nth-of-type(odd) {
+  background-color: lightgray;
+}
+
+#portfolio .image {
+  width: 90%;
+  height: 150px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
