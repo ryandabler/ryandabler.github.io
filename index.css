@@ -115,9 +115,13 @@ main > section > p {
     margin-top: 20px;
 }
 
-.project-container {
+.project:nth-of-type(odd) .project-container {
     border-left: 15px solid #000000;
     padding-left: 15px;
+}
+
+.project:nth-of-type(even) .project-container {
+    border-right: 15px solid #000000;
 }
 
 .project-container p {
