@@ -98,10 +98,6 @@ main > section p {
     font-size: 20px;
 }
 
-#portfolio > .project:nth-of-type(odd) {
-  background-color: lightgray;
-}
-
 #portfolio .image {
   width: 90%;
   height: 150px;
