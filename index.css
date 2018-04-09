@@ -1,14 +1,26 @@
 body {
-  width: 320px;
+    color: #000000;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 nav {
-  background-color: lightgray;
+  background-color: #000000;
+  padding: 10px 0;
 }
+
 nav ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
   display: flex;
   justify-content: space-evenly;
 }
@@ -17,8 +29,55 @@ nav ul li {
   display: inline-block;
 }
 
+nav ul li a {
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 33px;
+    margin: 0;
+}
+
+.intro {
+    font-size: 20px;
+}
+
+.tech > * {
+    display: inline-block;
+}
+
+.tech > *:not(:last-child) {
+    margin-right: 5px;
+}
+
+.tech > *:not(:last-child)::after {
+    content: ", ";
+}
+
+.tech-major {
+    font-size: 30px;
+}
+
+.tech-minor {
+    font-size: 20px;
+}
+
+main {
+    padding: 20px 0 10px 0;
+    display: grid;
+    grid-template-columns: 20px auto 20px;
+}
+
 main > :nth-child(2) {
   background-color: lightgray;
+}
+
+main > section {
+    grid-column: 2 / 3;
+}
+
+.skills {
+    margin-bottom: 0;
 }
 
 #portfolio > .project:nth-of-type(odd) {
