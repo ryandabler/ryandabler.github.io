@@ -76,10 +76,6 @@ main > section {
     grid-column: 2 / 3;
 }
 
-.skills {
-    margin-bottom: 0;
-}
-
 #portfolio > .project:nth-of-type(odd) {
   background-color: lightgray;
 }
