@@ -42,6 +42,35 @@ h1 {
     font-size: 20px;
 }
 
+main {
+    padding: 20px 0 10px 0;
+}
+
+main > :nth-child(2) {
+  background-color: lightgray;
+}
+
+main > section {
+    display: grid;
+    grid-template-columns: 20px auto 20px;
+    grid-row-gap: 9px;
+}
+
+main > section > * {
+    grid-column: 2 / 3;
+}
+
+main > section p {
+    margin: 0;
+}
+
+.tech {
+    background-color: #000000;
+    color: #FFFFFF;
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
 .tech > * {
     display: inline-block;
 }
@@ -60,20 +89,6 @@ h1 {
 
 .tech-minor {
     font-size: 20px;
-}
-
-main {
-    padding: 20px 0 10px 0;
-    display: grid;
-    grid-template-columns: 20px auto 20px;
-}
-
-main > :nth-child(2) {
-  background-color: lightgray;
-}
-
-main > section {
-    grid-column: 2 / 3;
 }
 
 #portfolio > .project:nth-of-type(odd) {
