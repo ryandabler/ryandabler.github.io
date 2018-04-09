@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+h2 {
+    margin-top: var(--v-spacing);
+}
+
 a {
     text-decoration: none;
 }
@@ -103,4 +107,13 @@ main > section p {
   height: 150px;
   margin: 0 auto;
   border: 1px solid black;
+}
+
+.combine {
+    margin-top: var(--v-spacing);
+}
+
+.combine > * {
+    display: inline;
+    margin: 0;
 }
