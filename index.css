@@ -7,6 +7,8 @@
     --project-name-font-size: 19px;
     --section-spacing: 20px;
     --line-height: 1.4em;
+    --primary-tech-bg-clr: #CA5400;
+    --secondary-tech-bg-clr: #600071;
 }
 
 * {
@@ -96,7 +98,7 @@ main > section > p {
 }
 
 .tech {
-    background-color: #000000;
+    background-color: var(--primary-tech-bg-clr);
     color: #FFFFFF;
     grid-column: 1 / -1;
     text-align: center;
