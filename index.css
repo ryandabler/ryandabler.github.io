@@ -137,3 +137,26 @@ main > section > p {
     display: inline;
     margin: 0;
 }
+
+.buttonize {
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #000000;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+}
+
+.social > a {
+    color: #000000;
+}
+
+}
