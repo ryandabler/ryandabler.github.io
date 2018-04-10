@@ -106,6 +106,18 @@ main > section > p {
     margin: 0;
 }
 
+.placeholder-1 {
+    grid-column: 1;
+}
+
+.placeholder-3 {
+    grid-column: 3;
+}
+
+.tech-second-placeholder {
+    background-color: var(--secondary-tech-bg-clr);
+}
+
 .tech {
     background-color: var(--primary-tech-bg-clr);
     color: #FFFFFF;
@@ -123,6 +135,11 @@ main > section > p {
 
 .tech-main-list > *:not(:last-child) {
     margin-right: 5px;
+}
+
+.tech-secondary-list {
+    grid-column: 2 / 3;
+    background-color: var(--secondary-tech-bg-clr);
 }
 
 .tech-secondary-list > * {
