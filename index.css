@@ -7,8 +7,8 @@
     --project-name-font-size: 19px;
     --section-spacing: 20px;
     --line-height: 1.4em;
-    --primary-tech-bg-clr: #CA5400;
-    --secondary-tech-bg-clr: #600071;
+    --clr-bold-orange: #CA5400;
+    --clr-bold-purple: #600071;
 }
 
 * {
@@ -135,11 +135,11 @@ main > section > p {
 }
 
 .tech-second-placeholder {
-    background-color: var(--secondary-tech-bg-clr);
+    background-color: var(--clr-bold-purple);
 }
 
 .tech {
-    background-color: var(--primary-tech-bg-clr);
+    background-color: var(--clr-bold-orange);
     color: #FFFFFF;
     grid-column: 1 / -1;
     text-align: center;
@@ -159,7 +159,7 @@ main > section > p {
 
 .tech-secondary-list {
     grid-column: 2 / 3;
-    background-color: var(--secondary-tech-bg-clr);
+    background-color: var(--clr-bold-purple);
 }
 
 .tech-secondary-list > * {
