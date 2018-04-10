@@ -45,11 +45,15 @@ ul {
 }
 
 nav {
+    display: flex;
+    justify-content: space-between;
     background-color: #000000;
     padding: 10px 0;
 }
 
 nav ul {
+    width: 100%;
+    max-width: 350px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -60,6 +64,10 @@ nav ul li {
 
 nav ul li a {
     color: #FFFFFF;
+}
+
+.nav-name {
+    display: none;
 }
 
 h1 {
@@ -189,6 +197,17 @@ main > section > p {
         --main-font-size: calc(17px + (22 - 17) * ((100vw - 320px) / (1440 - 320)));
         --section-spacing: calc(20px + (70 - 20) * ((100vw - 320px) / (1440 - 320)));
         --line-height: calc(1.4em + (1.8 - 1.4) * ((100vw - 320px) / (1440 - 320)));
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .nav-name {
+        display: block;
+        margin-left: 25px;
+    }
+
+    nav ul {
+        width: 60%;
     }
 }
 
