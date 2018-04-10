@@ -62,8 +62,9 @@ nav ul li {
     display: inline-block;
 }
 
-nav ul li a {
+nav a {
     color: #FFFFFF;
+    font-size: var(--main-font-size);
 }
 
 .nav-name {
