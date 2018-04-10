@@ -6,6 +6,7 @@
     --main-font-size: 17px;
     --project-name-font-size: 19px;
     --section-spacing: 20px;
+    --line-height: 1.4em;
 }
 
 * {
@@ -28,6 +29,7 @@ h3 {
 
 p {
     font-size: var(--main-font-size);
+    line-height: var(--line-height);
 }
 
 a {
@@ -184,6 +186,7 @@ main > section > p {
         --header-font-size: calc(24px + (35 - 24) * ((100vw - 320px) / (1440 - 320)));
         --main-font-size: calc(17px + (22 - 17) * ((100vw - 320px) / (1440 - 320)));
         --section-spacing: calc(20px + (70 - 20) * ((100vw - 320px) / (1440 - 320)));
+        --line-height: calc(1.4em + (1.8 - 1.4) * ((100vw - 320px) / (1440 - 320)));
     }
 }
 
@@ -195,5 +198,6 @@ main > section > p {
         --main-font-size: 22px;
         --header-font-size: 35px;
         --section-spacing: 70px;
+        --line-height: 1.8em;
     }
 }
