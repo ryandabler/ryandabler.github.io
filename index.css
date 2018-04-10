@@ -71,6 +71,26 @@ nav a {
     display: none;
 }
 
+.link-container {
+    display: inline-block;
+}
+
+.link-container a {
+    display: block;
+}
+
+.link-container a:after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #FFFF00;
+    width: 0;
+    transition: .25s ease;
+}
+
+.link-container a:hover:after {
+    width: 100%;
+}
+
 h1 {
     font-size: var(--ryan-font-size);
     margin: 0;
