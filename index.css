@@ -3,6 +3,7 @@
     --header-font-size: 24px;
     --ryan-font-size: 33px;
     --main-font-size: 17px;
+    --project-name-font-size: 19px;
 }
 
 * {
@@ -143,6 +144,8 @@ main > section > p {
     margin-bottom: 5px
 }
 
+.project-container h3 {
+    font-size: var(--project-name-font-size);
 }
 
 .combine > * {
