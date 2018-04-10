@@ -13,8 +13,7 @@ body {
 }
 
 h2 {
-    margin-top: var(--v-spacing);
-    margin-bottom: 0;
+    margin: 0;
 }
 
 h3 {
@@ -59,13 +58,17 @@ h1 {
 }
 
 main {
-    padding: var(--v-spacing) 0 10px 0;
+    padding: 20px 0;
 }
 
 main > section {
     display: grid;
     grid-template-columns: 20px auto 20px;
     grid-row-gap: 9px;
+}
+
+main > section:not(:last-child) {
+    margin-bottom: 20px;
 }
 
 main > section > * {
