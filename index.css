@@ -45,17 +45,17 @@ ul {
 }
 
 nav {
-  background-color: #000000;
-  padding: 10px 0;
+    background-color: #000000;
+    padding: 10px 0;
 }
 
 nav ul {
-  display: flex;
-  justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 nav ul li {
-  display: inline-block;
+    display: inline-block;
 }
 
 nav ul li a {
