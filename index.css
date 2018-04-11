@@ -16,6 +16,10 @@
     box-sizing: border-box;
 }
 
+.linkify {
+    cursor: pointer;
+}
+
 body {
     color: #000000;
     font-family: 'Tajawal', sans-serif;
