@@ -188,12 +188,20 @@ main > section > p {
 }
 
 .project:nth-of-type(odd) .project-container {
-    border-left: 15px solid #000000;
+    border-left: 15px solid var(--clr-bold-orange);
     padding-left: 15px;
 }
 
+.project:nth-of-type(odd) .project-container a {
+    color: var(--clr-bold-orange);
+}
+
 .project:nth-of-type(even) .project-container {
-    border-right: 15px solid #000000;
+    border-right: 15px solid var(--clr-bold-purple);
+}
+
+.project:nth-of-type(even) .project-container a {
+    color: var(--clr-bold-purple);
 }
 
 .project-container p {
