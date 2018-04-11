@@ -96,10 +96,6 @@ nav a {
     transition: .25s ease;
 }
 
-.link-container a:hover:after {
-    width: 100%;
-}
-
 h1 {
     font-size: var(--ryan-font-size);
     margin: 0;
@@ -252,6 +248,16 @@ main > section > p {
 
 .social > a {
     color: #000000;
+}
+
+@media (hover: hover) {
+    a {
+        text-decoration: none;
+    }
+    
+    .link-container a:hover:after {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 321px) {
