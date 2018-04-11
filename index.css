@@ -9,6 +9,7 @@
     --line-height: 1.4em;
     --clr-bold-orange: #CA5400;
     --clr-bold-purple: #600071;
+    --main-top-margin: 46px;
 }
 
 * {
@@ -49,6 +50,10 @@ nav {
     justify-content: space-between;
     background-color: #000000;
     padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 nav ul {
@@ -105,6 +110,7 @@ h2 {
 }
 
 main {
+    margin-top: var(--main-top-margin);
     padding: 20px 0;
 }
 
@@ -253,6 +259,7 @@ main > section > p {
         --main-font-size: calc(17px + (22 - 17) * ((100vw - 320px) / (1440 - 320)));
         --section-spacing: calc(20px + (70 - 20) * ((100vw - 320px) / (1440 - 320)));
         --line-height: calc(1.4em + (1.8 - 1.4) * ((100vw - 320px) / (1440 - 320)));
+        --main-top-margin: calc(46px + (53 - 46) * ((100vw - 320px) / (1440 - 320)));
     }
 }
 
@@ -276,5 +283,6 @@ main > section > p {
         --header-font-size: 35px;
         --section-spacing: 70px;
         --line-height: 1.8em;
+        --main-top-margin: 53px;
     }
 }
