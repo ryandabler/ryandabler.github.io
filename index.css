@@ -234,6 +234,7 @@ main > section > p {
     color: #FFFFFF;
     background-color: #000000;
     padding: 10px;
+    transition: .25s ease;
 }
 
 .social {
@@ -244,6 +245,7 @@ main > section > p {
 
 .social > a {
     color: #000000;
+    transition: .25s ease;
 }
 
 @media (hover: hover) {
@@ -251,8 +253,21 @@ main > section > p {
         text-decoration: none;
     }
     
+    .project a:hover {
+        text-decoration: underline;
+    }
+    
     .link-container a:hover:after {
         width: 100%;
+    }
+
+    .buttonize:hover {
+        background-color: var(--clr-bold-purple);
+        border-color: var(--clr-bold-purple);
+    }
+
+    .social > a:hover {
+        color: var(--clr-bold-purple);
     }
 }
 
