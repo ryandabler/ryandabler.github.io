@@ -218,6 +218,11 @@ main > section > p {
     margin: 0;
 }
 
+#contact > a.buttonize {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .buttonize {
     width: 50%;
     text-align: center;
