@@ -4,7 +4,7 @@
     --header-font-size: 24px;
     --ryan-font-size: 33px;
     --main-font-size: 17px;
-    --project-name-font-size: 19px;
+    --project-name-font-size: calc(var(--main-font-size) * 1.118);
     --section-spacing: 20px;
     --line-height: 1.4em;
     --clr-bold-orange: #CA5400;
