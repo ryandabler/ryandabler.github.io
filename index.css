@@ -67,7 +67,7 @@ nav a {
     font-size: var(--main-font-size);
 }
 
-.nav-name {
+.nav-name, .link-container .nav-name {
     display: none;
 }
 
@@ -252,7 +252,7 @@ main > section > p {
 }
 
 @media only screen and (min-width: 425px) {
-    .nav-name {
+    .nav-name, .link-container .nav-name {
         display: block;
         margin-left: 25px;
     }
