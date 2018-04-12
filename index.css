@@ -92,6 +92,10 @@ nav a {
     transition: .25s ease;
 }
 
+.link-container a:focus:after {
+    width: 100%;
+}
+
 h1 {
     font-size: var(--ryan-font-size);
     margin: 0;
@@ -237,6 +241,11 @@ main > section > p {
     transition: .25s ease;
 }
 
+.buttonize:focus {
+    background-color: var(--clr-bold-purple);
+    border-color: var(--clr-bold-purple);
+}
+
 .social {
     display: flex;
     justify-content: space-evenly;
@@ -246,6 +255,10 @@ main > section > p {
 .social > a {
     color: #000000;
     transition: .25s ease;
+}
+
+.social > a:focus {
+    color: var(--clr-bold-purple);
 }
 
 @media (hover: hover) {
