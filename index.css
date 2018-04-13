@@ -249,7 +249,7 @@ main > section > p {
 .social {
     display: flex;
     justify-content: space-evenly;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .social > a {
