@@ -11,6 +11,8 @@ function scrollToElement(e) {
         "behavior": "smooth",
         "top": target.offsetTop - navOffset - PADDING_OFFSET
     });
+
+    e.currentTarget.blur();
 }
 
 document.getElementById("hero-link").addEventListener("click", scrollToElement);
