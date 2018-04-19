@@ -61,7 +61,7 @@ nav ul {
     max-width: 350px;
     display: flex;
     justify-content: space-around;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 
 nav ul li {
@@ -250,6 +250,7 @@ main > section > p {
 .social {
     display: flex;
     justify-content: space-around;
+    /* justify-content: space-evenly; */
     font-size: 50px;
 }
 
@@ -319,9 +320,3 @@ a {
         --main-top-margin: 53px;
     }
 }
-
-/* @supports (justify-content: space-evenly) {
-    .social, nav ul {
-        justify-content: space-evenly;
-    }
-} */
