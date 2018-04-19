@@ -261,27 +261,25 @@ main > section > p {
     color: var(--clr-bold-purple);
 }
 
-@media (hover: hover) {
-    a {
-        text-decoration: none;
-    }
-    
-    .project a:hover {
-        text-decoration: underline;
-    }
-    
-    .link-container a:hover:after {
-        width: 100%;
-    }
+a {
+    text-decoration: none;
+}
 
-    .buttonize:hover {
-        background-color: var(--clr-bold-purple);
-        border-color: var(--clr-bold-purple);
-    }
+.project a:hover {
+    text-decoration: underline;
+}
 
-    .social > a:hover {
-        color: var(--clr-bold-purple);
-    }
+.link-container a:hover:after {
+    width: 100%;
+}
+
+.buttonize:hover {
+    background-color: var(--clr-bold-purple);
+    border-color: var(--clr-bold-purple);
+}
+
+.social > a:hover {
+    color: var(--clr-bold-purple);
 }
 
 @media only screen and (min-width: 321px) {
