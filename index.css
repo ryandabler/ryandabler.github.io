@@ -190,6 +190,10 @@ main > section > p {
   width: 100%;
 }
 
+.img-add-border {
+    border: 1px solid var(--clr-bold-purple);
+}
+
 .project:not(:first-of-type) {
     margin-top: 20px;
 }
