@@ -110,10 +110,6 @@ h2 {
     margin-bottom: 10px;
 }
 
-.intro {
-    font-size: var(--header-font-size);
-}
-
 main {
     margin-top: var(--main-top-margin);
     padding: 20px 0;
