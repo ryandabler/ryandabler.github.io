@@ -106,6 +106,10 @@ h2 {
     font-size: var(--header-font-size);
 }
 
+.intro-text {
+    margin-bottom: 10px;
+}
+
 .intro {
     font-size: var(--header-font-size);
 }
