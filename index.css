@@ -232,6 +232,7 @@ main > section > p {
 #contact > a.buttonize {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: var(--main-font-size);
 }
 
 .buttonize {
